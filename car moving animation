@@ -615,9 +615,6 @@ void display(void)
         bx = -500;
     glutPostRedisplay();
     
-    glColor3ub(0,0,0);
-    glRasterPos2f(-0.9f, -0.9f);
-
 
     glFlush();
     glutSwapBuffers();
